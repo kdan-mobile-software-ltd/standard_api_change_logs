@@ -5,7 +5,7 @@
 1. Renew Login / Refresh API 200 ok response example.
 2. Modify API descriptions to new preparing website.
 3. Renew `GET` Template List API for missing path parameters description and example.
-4. Renew `Post` Create Task API deadline for not expired time integer.
+4. Renew `POST` Create Task API deadline for not expired time integer.
 
 # Ver.3.1.3
 
@@ -23,7 +23,7 @@
 2. Part II. Group All APIs must use secret_key to request only.
 3. For security reasons, we provide another new api_key call `secret_key`. To know how and when to use `api_key` or `secret_key`, please check the **Developer Guide**.
 
-# Ver 3.1.1
+# Ver.3.1.1
 
 ## CHANGE LOGS
 
