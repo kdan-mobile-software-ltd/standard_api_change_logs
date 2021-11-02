@@ -1,3 +1,48 @@
+# Ver.3.1.5
+## CHANGE LOGS
+
+### Released Date
+
+- Preparing Env: 2021/11/3
+- Prodcution Env: 2021/11/8
+
+### New APIs
+
+- `POST` Simple Task Creator
+- `GET` Audit Trials Raw Data
+### New Features
+
+- Custom message (message and completed_message) and related settings.
+- Sign field options settings.
+- Sign stage attachment settings.
+
+We add new features in Standard API, here is the renewed API's description and example list below.
+
+- Part I. Admin
+  - Task
+    1. `POST` Create Task 
+    2. `GET` Read Task
+    3. `PUT` Sign Task
+  - Template
+    1. `POST` Create Template
+    2. `GET` Template List
+    3. `GET` Single Template
+    4. `PUT` Update Template
+- Part II. Group
+  - Callback Event
+
+### Bug Fixed
+
+- `GET` Search Task fixed.
+  - Also renewed the description and examples.
+
+### Change API Doc Name
+
+> The API route is the same, only changed Postman's API description.
+
+- `Get` Audit Trail => `Get` Audit Trails
+- `POST` Resend Signer => `POST` Resend Request to Signer
+
 # Ver.3.1.4
 
 ## CHANGE LOGS
