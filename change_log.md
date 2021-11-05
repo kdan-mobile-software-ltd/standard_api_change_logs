@@ -41,7 +41,7 @@ We add new features in Standard API, here is the renewed API's description and e
 
 > The API route is the same, only changed Postman's API description.
 
-- `Get` Audit Trail => `Get` Audit Trails PDF File
+- `GET` Audit Trail => `GET` Audit Trails PDF File
 - `POST` Resend Signer => `POST` Resend Request to Signer
 
 # Ver.3.1.4
