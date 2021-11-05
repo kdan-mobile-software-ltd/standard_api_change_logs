@@ -8,10 +8,11 @@
 
 ### New APIs
 
-- `POST` Simple Task Creator
+- `POST` Quick Create Task (Create by the Template)
 - `GET` Audit Trials Raw Data
 ### New Features
 
+For task and template:
 - Custom message (message and completed_message) and related settings.
 - Sign field options settings.
 - Sign stage attachment settings.
@@ -40,7 +41,7 @@ We add new features in Standard API, here is the renewed API's description and e
 
 > The API route is the same, only changed Postman's API description.
 
-- `Get` Audit Trail => `Get` Audit Trails
+- `Get` Audit Trail => `Get` Audit Trails PDF File
 - `POST` Resend Signer => `POST` Resend Request to Signer
 
 # Ver.3.1.4
