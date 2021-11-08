@@ -10,9 +10,9 @@
 
 - `POST` Quick Create Task (Create by the Template)
 - `GET` Audit Trials Raw Data
-### New Features
+### New Features (Update Existing APIs)
 
-For task and template:
+For task and template features:
 - Custom message (message and completed_message) and related settings.
 - Sign field options settings.
 - Sign stage attachment settings.
@@ -32,9 +32,9 @@ We add new features in Standard API, here is the renewed API's description and e
 - Part II. Group
   - Callback Event
 
-### Bug Fixed
+### API Bug Fixed
 
-- `GET` Search Task fixed.
+- `GET` Search Task
   - Also renewed the description and examples.
 
 ### Change API Doc Name
