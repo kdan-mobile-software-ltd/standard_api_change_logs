@@ -3,7 +3,6 @@
 
 ### Released Date
 
-- Preparing Env: 2022/08/08
 - Prodcution Env: 2022/08/15
 - Sandbox Env: 2022/08/16
 
@@ -16,10 +15,10 @@
 - Part I. Admin
     - Task
       1. `GET` Read Task
-         - Change 2 parameters in request body to query parameters.
-         - Add a new response of `400048` error code, which represents that the query parameter `client` is invalid or not provided.
-      2. `POST` Create Task
-         -  Check if email format is valid
+         - Change 2 parameters in the request body to query parameters.
+         - Add a new response of the `400048` error code, representing that the query parameter `client` is invalid or not provided.
+      2. `POST` Create Task, `POST` Quick Create Task (Create by the Template)
+         - Check if email format is valid
            - Add a new response of `400220` error code, which represents that the email of signer or cc user is invalid.
 
 ### API Deprecated
@@ -29,7 +28,7 @@
 
 ### Postman Document Updated
 - Update preparing environment (https://dottedsign.preparing.kdanmobile.com/) => sandbox environment (https://dottedsign-api.qa.kdanmobile.com/)
-- Update some `GET` APIs path params or request body => query params
+- To comply with the Restful API style, we let all GET API requests to use `query params` instead of JSON body.
   1. `GET` Audit Trails PDF File
   2. `GET` Audit Trails Raw Data
   3. `GET` Search Task
