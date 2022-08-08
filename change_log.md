@@ -1,3 +1,42 @@
+# Ver.3.1.6
+## CHANGE LOGS
+
+### Released Date
+
+- Preparing Env: 2022/08/08
+- Prodcution Env: 2022/08/15
+- Sandbox Env: 2022/08/16
+
+### New APIs
+
+- `POST` Share Sign Link
+  - Let the sign task owner obtain each stage's sign link, which is as same as the email quick sign link. (Default 2 days expired)
+
+### API Bug Fixed
+- Part I. Admin
+    - Task
+      1. `GET` Read Task
+         - Change 2 parameters in request body to query parameters.
+         - Add a new response of `400048` error code, which represents that the query parameter `client` is invalid or not provided.
+      2. `POST` Create Task
+         -  Check if email format is valid
+           - Add a new response of `400220` error code, which represents that the email of signer or cc user is invalid.
+
+### API Deprecated
+- Part I. Admin
+    - Task
+        1. `GET` Share Link
+
+### Postman Document Updated
+- Update preparing environment (https://dottedsign.preparing.kdanmobile.com/) => sandbox environment (https://dottedsign-api.qa.kdanmobile.com/)
+- Update some `GET` APIs path params or request body => query params
+  1. `GET` Audit Trails PDF File
+  2. `GET` Audit Trails Raw Data
+  3. `GET` Search Task
+  4. `GET` Task List
+  5. `GET` Task List (Admin)
+  6. `GET` Single Template
+
 # Ver.3.1.5
 ## CHANGE LOGS
 
