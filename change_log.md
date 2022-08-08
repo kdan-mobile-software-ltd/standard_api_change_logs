@@ -25,7 +25,7 @@
 ### API Deprecated
 - Part I. Admin
     - Task
-        1. `GET` Share Link
+        1. `GET` Share Link v3
 
 ### Postman Document Updated
 - Update preparing environment (https://dottedsign.preparing.kdanmobile.com/) => sandbox environment (https://dottedsign-api.qa.kdanmobile.com/)
