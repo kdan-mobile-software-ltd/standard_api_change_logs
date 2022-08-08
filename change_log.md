@@ -36,6 +36,8 @@
   4. `GET` Task List
   5. `GET` Task List (Admin)
   6. `GET` Single Template
+- Typo
+  1. `GET` Audit Trails PDF File: task_id => id
 
 # Ver.3.1.5
 ## CHANGE LOGS
