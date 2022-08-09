@@ -1,4 +1,4 @@
-# Ver.3.1.6
+# Ver.3.2.0
 ## CHANGE LOGS
 
 ### Released Date
