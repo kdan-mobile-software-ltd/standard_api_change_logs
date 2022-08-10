@@ -3,8 +3,8 @@
 
 ### Released Date
 
-- Prodcution Env: 2022/08/15
-- Sandbox Env: 2022/08/16
+- Prodcution Env: 2022/09/15
+- Sandbox Env: 2022/08/10
 
 ### New APIs
 
@@ -19,7 +19,7 @@
          - Add a new response of the `400048` error code, representing that the query parameter `client` is invalid or not provided.
       2. `POST` Create Task, `POST` Quick Create Task (Create by the Template)
          - Check if email format is valid
-           - Add a new response of `400220` error code, which represents that the email of signer or cc user is invalid.
+           - Add a new response of `400220` error code, representing that the email of signer or cc user is invalid.
 
 ### API Deprecated
 - Part I. Admin
@@ -35,6 +35,11 @@
   4. `GET` Task List
   5. `GET` Task List (Admin)
   6. `GET` Single Template
+- Limit the query parameter `per_page` to 20. If pass a number greater than 20, it will be recognized as 20.
+  1. `GET` Search Task
+  2. `GET` Task List
+  3. `GET` Task List (Admin)
+  4. `GET` Template List
 - Typo
   1. `GET` Audit Trails PDF File: task_id => id
 
