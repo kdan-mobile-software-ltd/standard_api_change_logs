@@ -29,13 +29,15 @@
 ### Postman Document Updated
 - Update preparing environment (https://dottedsign.preparing.kdanmobile.com/) => sandbox environment (https://dottedsign-api.qa.kdanmobile.com/)
 - To comply with the Restful API style, we let all GET API requests to use `query params` instead of JSON body.
+    **Notice: Incorrect settings will cause the request to fail.**
   1. `GET` Audit Trails PDF File
   2. `GET` Audit Trails Raw Data
-  3. `GET` Search Task
-  4. `GET` Task List
-  5. `GET` Task List (Admin)
-  6. `GET` Single Template
-- Limit the query parameter `per_page` to 20. If pass a number greater than 20, it will be recognized as 20.
+  3. `GET` Read Task
+  4. `GET` Search Task
+  5. `GET` Task List
+  6. `GET` Task List (Admin)
+  7. `GET` Single Template
+- Limit the query parameter `per_page` to 20. Passing a number greater than 20 will be recognized as 20.
   1. `GET` Search Task
   2. `GET` Task List
   3. `GET` Task List (Admin)
