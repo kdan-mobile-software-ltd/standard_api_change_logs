@@ -17,7 +17,7 @@
       1. `POST` Create Task
          - Remove `need_otp_verify` in `meta_data_object`
          - Add `verify` in `stage_object`
-         - Add a new OTP verification type: `sms`. It can be configured separately from the email type, or set at the same time.
+         - Add a new OTP verification type: `sms`. It can be configured separately from the email type or set simultaneously.
 
 ### API Bug Fixed
 - Part I. Admin
