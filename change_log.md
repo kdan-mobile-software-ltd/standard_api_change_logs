@@ -11,6 +11,14 @@
 - `POST` Share Sign Link
   - Let the sign task owner obtain each stage's sign link, which is as same as the email quick sign link. (Default 2 days expired)
 
+### API Updated
+- Part I. Admin
+    - Task
+      1. `POST` Create Task
+         - Remove `need_otp_verify` in `meta_data_object`
+         - Add `verify` in `stage_object`
+         - Add a new OTP verification type: `sms`. It can be configured separately from the email type or set simultaneously.
+
 ### API Bug Fixed
 - Part I. Admin
     - Task
