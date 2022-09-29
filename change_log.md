@@ -1,3 +1,29 @@
+# Ver.3.3.0
+## CHANGE LOGS
+
+### Released Date
+
+- Prodcution Env: 2022/11/03
+- Sandbox Env: 2022/10/3
+
+### New APIs
+
+- Part I. Admin
+    - Signature
+      - `POST` Create Stamp
+          - Using raw image to create a new stamp signature that can be used to fill in a signature field.
+
+      - `DELETE` Delete Signatures
+          - To delete the specified signatures.
+
+### API Updated
+- Part I. Admin
+    - Task
+        1. `POST` Quick Create Task (Create by the Template)
+            - return an error `400934 template_need_sms_verify`,
+              if using the template in which signers should be verified with SMS OTP and not providing the signer's phone in request body.
+
+
 # Ver.3.2.0
 ## CHANGE LOGS
 
