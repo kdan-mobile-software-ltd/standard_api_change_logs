@@ -23,6 +23,13 @@
             - return an error `400934 template_need_sms_verify`,
               if using the template in which signers should be verified with SMS OTP and not providing the signer's phone in the request body.
 
+### Postman Document Updated
+- Part II. Group
+  - Callback Event
+    1. Add `digit_cert_task_uploaded` event
+    2. Add `digit_cert_audit_trail_uploaded` event
+    > You can trigger some actions when receiving these 2 events, such as downloading the completed task file.
+
 
 # Ver.3.2.0
 ## CHANGE LOGS
