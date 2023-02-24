@@ -1,9 +1,34 @@
+# Ver.3.3.1
+## CHANGE LOGS
+
+### Released Date
+
+- Production Env: 2023/03/24
+- Sandbox Env: 2023/02/24
+
+### New APIs
+
+- Part I. Admin
+  - Task
+    - `POST` Review Task
+        - To check the value filled in fields by signers and determine to pass or return to the signer.
+    - `POST` Review Finish
+        - The signer confirms the check result and finishes the sign stage.
+
+### API Updated
+- Part I. Admin
+  - Task
+    - `GET` Read Task
+      - Moving `Client`, `IP-Address` from query parameters to headers.
+      - Adding new optional parameter `with_signature_infos` and an example for this. You can pass `true` to the parameter to obtain the signature fields info in the response.
+
+
 # Ver.3.3.0
 ## CHANGE LOGS
 
 ### Released Date
 
-- Prodcution Env: 2022/11/03
+- Production Env: 2022/11/03
 - Sandbox Env: 2022/10/03
 
 ### New APIs
@@ -36,7 +61,7 @@
 
 ### Released Date
 
-- Prodcution Env: 2022/09/15
+- Production Env: 2022/09/15
 - Sandbox Env: 2022/08/10
 
 ### New APIs
@@ -92,7 +117,7 @@
 ### Released Date
 
 - Preparing Env: 2021/11/3
-- Prodcution Env: 2021/11/8
+- Production Env: 2021/11/8
 
 ### New APIs
 
