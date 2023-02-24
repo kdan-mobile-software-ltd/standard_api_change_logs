@@ -11,7 +11,9 @@
 - Part I. Admin
   - Task
     - `POST` Review Task
-      - To check the value filled in fields by signers and determine to pass or return to the signer.
+        - To check the value filled in fields by signers and determine to pass or return to the signer.
+    - `POST` Review Finish
+        - The signer confirms the check result and finishes the sign stage.
 
 ### API Updated
 - Part I. Admin
