@@ -1,3 +1,19 @@
+# Ver.3.3.2
+## CHANGE LOGS
+
+### Released Date
+
+- Production Env:
+- Sandbox Env:
+
+### API Updated
+
+Add `reviewed_by` parameter in following APIs:
+- Part I. Admin
+    - Task
+        - `POST` Create Task
+        - `POST` Create Template
+
 # Ver.3.3.1
 ## CHANGE LOGS
 
