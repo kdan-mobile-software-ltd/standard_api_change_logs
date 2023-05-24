@@ -1,4 +1,4 @@
-# Ver.3.3.2
+# Ver.3.4.0
 ## CHANGE LOGS
 
 ### Released Date
@@ -8,7 +8,7 @@
 
 ### API Updated
 
-Add `reviewed_by` parameter in following APIs:
+Add `reviewed_by`, `field_setting_groups` parameter in following APIs:
 - Part I. Admin
     - Task
         - `POST` Create Task
