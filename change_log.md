@@ -1,3 +1,18 @@
+# Ver.3.3.3
+## CHANGE LOGS
+
+### Released Date
+
+- Production Env: 2023/06/14
+- Sandbox Env: 2023/06/14
+
+### API Updated
+
+Add `base_stage_rank` parameter of `reviewed_by` object in stages in following APIs to support the feature of the `reviewed_by` parameter in the previous version when creating a task from the response body of a template.
+- Part I. Admin
+    - Task
+        - `GET` Single Template
+
 # Ver.3.3.2
 ## CHANGE LOGS
 
