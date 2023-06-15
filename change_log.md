@@ -3,8 +3,8 @@
 
 ### Released Date
 
-- Production Env: 2023/06/14
-- Sandbox Env: 2023/06/14
+- Production Env: 2023/06/15
+- Sandbox Env: 2023/06/15
 
 ### API Updated
 
