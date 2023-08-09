@@ -1,6 +1,13 @@
 # Ver.3.3.3
 ## CHANGE LOGS
 
+### Postman Document Updated
+Add `completed` callback event in Part II. Group > Callback Event
+- `completed` event will be triggered when the completed PDF file, merged attachment are ready to be downloaded and the task status becomes completed.
+
+# Ver.3.3.3
+## CHANGE LOGS
+
 ### Released Date
 
 - Production Env: 2023/06/15
