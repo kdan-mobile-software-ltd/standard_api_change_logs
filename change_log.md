@@ -1,3 +1,23 @@
+# Ver.3.4.0
+## CHANGE LOGS
+
+### Released Date
+
+- Production Env: 2023/11/1
+- Sandbox Env: 
+
+### API updated
+
+Deprecate the features of single checkbox and radio button and only support multiple checkbox and radio button in a `field_setting_group`.
+Please check the following parts of Postman Document for more details:
+
+- Part I. Admin
+    - Task
+      - `POST` Create Task
+    - Template
+      - `POST` Create Template
+      - `PUT` Update Template
+
 # Ver.3.3.3
 ## CHANGE LOGS
 
