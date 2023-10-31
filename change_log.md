@@ -4,7 +4,7 @@
 ### Released Date
 
 - Production Env: 2023/11/1
-- Sandbox Env: 
+- Sandbox Env: 2023/10/31
 
 ### API updated
 
