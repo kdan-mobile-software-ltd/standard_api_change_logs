@@ -3,6 +3,17 @@
 
 ### Released Date
 
+- Production Env: TBD
+- Sandbox Env: 2023/12/22
+
+Add `declined` callback event in Part II. Group > Callback Event
+- `declined` event will be triggered when the signer declines the task, and the decline reason will be included in the request body.
+
+# Ver.3.4.0
+## CHANGE LOGS
+
+### Released Date
+
 - Production Env: 2023/11/1
 - Sandbox Env: 2023/10/31
 
