@@ -3,7 +3,7 @@
 
 ### Released Date
 
-- Production Env: TBD
+- Production Env: 2024/02/05
 - Sandbox Env: 2023/12/22
 
 Add `declined` callback event in Part II. Group > Callback Event
