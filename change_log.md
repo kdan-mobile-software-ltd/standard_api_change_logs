@@ -1,6 +1,12 @@
 # Ver.3.4.0
 ## CHANGE LOGS
 
+### Developer Guide Updated
+Update the download/upload file location in the pages "URLs for Testing Environment" and "URLs for Production Environment (Online Version)".
+
+# Ver.3.4.0
+## CHANGE LOGS
+
 ### Released Date
 
 - Production Env: 2024/02/05
